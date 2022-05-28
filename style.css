@@ -1,0 +1,24 @@
+h3 {
+    font-size: 26px !important;
+    font-family: 'Special Elite', cursive;
+}
+
+.btn-info {
+    font-size: 15px;
+    font-family: 'Special Elite', cursive;
+}
+
+.btn-info:hover {
+    background-color: red
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 35px orangered}
+    to{box-shadow: 1px 1px 35px purple}
+}
